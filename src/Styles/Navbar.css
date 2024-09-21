@@ -1,0 +1,100 @@
+.logo{
+    height: 80px;
+    border-radius: 30px;
+    right: 20px;
+  }
+  .Navbar{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(2, 52, 52);
+      color: white;
+      /* position: fixed; */
+      width: 100%;
+      z-index: 99;
+      text-align: center;
+      align-items: center;
+  }
+  .nav-center{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+  }
+   .navlinks{
+      display: flex;
+      gap: 20px;
+      justify-content: space-between;
+  }
+  .navlinks a {
+      text-decoration: none;
+      color: white;
+  }
+  
+  /* Mobile Navbar styles */
+  /* Hamburger menu styles */
+  .hamburger {
+      display: none;
+      flex-direction: column;
+      cursor: pointer;
+    }
+    
+    .hamburger div {
+      width: 25px;
+      height: 3px;
+      background-color: #c8d4c9; 
+      margin: 4px 0;
+      transition: all 0.3s ease;
+      margin-right: 20px;
+      z-index: 150;
+      
+    }
+    
+    /* Mobile Navbar styles */
+    @media (max-width: 768px) {
+      
+    
+      .Nav-left {
+        display: none; /* Hide the left content initially */
+        flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.9); /* Transparent background */
+        box-shadow: 0px 4px 6px rgba(39, 183, 11, 0.856);
+        z-index: 1000;
+      }
+    
+      .Nav-left.show {
+        display: flex; 
+      }
+    
+      .navlinks {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+      }
+    
+      .navlinks div {
+        margin: 15px 0;
+      }
+    
+      .hamburger {
+        display: flex;
+      }
+    
+      /* Rotate first bar */
+      .hamburger.change .bar1 {
+        transform: rotate(-45deg) translate(-5px, 6px);
+      }
+    
+      /* Fade out the second bar */
+      .hamburger.change .bar2 {
+        opacity: 0;
+      }
+    
+      /* Rotate last bar */
+      .hamburger.change .bar3 {
+        transform: rotate(45deg) translate(-5px, -6px);
+      }
+    }

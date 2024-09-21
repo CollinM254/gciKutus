@@ -1,0 +1,51 @@
+/* Post.css */
+.post {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    max-height: 250px;
+  }
+  
+  .post:hover {
+    transform: translateY(-10px);
+  }
+  
+  .image img {
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .texts {
+    padding: 20px;
+  }
+  
+  .texts h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  
+  .author {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .summary {
+    margin-top: 10px;
+    color: #555;
+  }
+  

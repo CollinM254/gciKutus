@@ -23,7 +23,7 @@ import DepartmentalMinistries from "./components/DepartmentalMinistries";
 import CommitteesMinistry from "./components/CommitteesMinistry";
 import FamiliesMinistry from "./components/FamiliesMinistry";
 // import { UserContextProvider } from "./UserContext";
-
+import PaymentForm from "./components/PaymentForm";
 function App() {
   return (
     <div className="App">
@@ -49,6 +49,7 @@ function App() {
           <Route path="/Departmental" element={<DepartmentalMinistries />} />
           <Route path="/Committees" element={<CommitteesMinistry />} />
           <Route path="/Families" element={<FamiliesMinistry />} />
+          <Route path="/mpesa" element={<PaymentForm />} />
 
           {/* <Route index element={<IndexPage />} /> */}
         </Routes>

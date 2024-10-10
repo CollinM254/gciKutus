@@ -134,7 +134,7 @@
     width: 100%;
     height: 100;
   
-    background-image: linear-gradient(rgb(222, 8, 190), rgb(0, 174, 255), rgb(0, 51, 128));
+    background-image: linear-gradient(rgb(10, 80, 145), rgb(0, 174, 255), rgb(0, 51, 128));
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;

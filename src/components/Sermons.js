@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';  // Import AOS styles
 import "../Styles/Sermons.css";
+import ChatBot from './ChatBot';
 
 const Sermons = () => {
   const [videos, setVideos] = useState([]);
@@ -49,6 +50,7 @@ const Sermons = () => {
           </iframe>
         </div>
       ))}
+       <ChatBot />
     </div>
   );
 };

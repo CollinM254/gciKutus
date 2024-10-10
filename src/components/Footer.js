@@ -28,7 +28,7 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <Link to={"mailto:cmwenda20@gmail.com"}>
+            <Link to={"mailto:kutusgci@gmail.com"}>
               <MdEmail /> Email Us
             </Link>
           </div>
@@ -43,19 +43,19 @@ function Footer() {
             </Link>
           </div>
           <div>
-            <Link to={"https://www.instagram.com/collinmwenda254"}>
+            <Link to={""}>
               <FaInstagram /> GCI - Kutus
             </Link>
           </div>
           <div>
-            <Link to={"https://x.com/mwenda_collin"}>
+            <Link to={""}>
               <FaXTwitter />
               GCI - Kutus
             </Link>
           </div>
           <div>
             <Link
-              to={"https://www.tiktok.com/@king_colloh0?_t=8mtwN91lTQD&_r=1"}
+              to={"https://vm.tiktok.com/ZMhrwdkEb/"}
             >
               <IoLogoTiktok /> GCI - Kutus
             </Link>

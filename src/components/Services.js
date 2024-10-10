@@ -1,5 +1,6 @@
 import React from "react";
 import "../Styles/Services.css";
+import ChatBot from "./ChatBot";
 
 function Services() {
   return (
@@ -47,6 +48,7 @@ function Services() {
           rejoice in the presence of God.
         </p>
       </div>
+      <ChatBot />
     </div>
   );
 }

@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../Styles/About.css"; // CSS file for custom styles
+import ChatBot from "./ChatBot";
 
 const About = () => {
   useEffect(() => {
@@ -12,7 +13,7 @@ const About = () => {
     <div className="about-container">
       <div data-aos="fade-right" className="about-section">
         <h2>About Us</h2>
-        <p >
+        <p style={{color:'black'}}>
           Grace Chapel Intl Kutus is a Christian Church located in Kutus Town,
           Kirinyaga County. It is a branch of Grace Chapel Intl Church Kiambu
           Road. We are dedicated to preaching the true gospel and making Christ
@@ -23,7 +24,7 @@ const About = () => {
 
       <div data-aos="fade-up" className="vision-section">
         <h2>Vision</h2>
-        <p>
+        <p style={{color:'black'}}>
           To have every member championing the course of Christ in our society
           by being and doing like Him.
         </p>
@@ -31,7 +32,7 @@ const About = () => {
 
       <div data-aos="fade-up" className="mission-section">
         <h2>Mission</h2>
-        <p>
+        <p style={{color:'black'}}>
           To have every member championing the course of Christ in our society
           by being and doing like Him.
         </p>
@@ -39,7 +40,7 @@ const About = () => {
 
       <div data-aos="fade-up" className="culture-section">
         <h2>Culture</h2>
-        <p>
+        <p style={{color:'black'}}>
           To have every member championing the course of Christ in our society
           by being and doing like Him.
         </p>
@@ -47,7 +48,7 @@ const About = () => {
 
       <div data-aos="fade-left" className="location-section">
         <h2>Location</h2>
-        <p>
+        <p style={{color:'black'}}>
           We are located in Kutus Town Mjini, just a few kilometers in your
           first right turn past Magundu hardware.
         </p>
@@ -63,6 +64,7 @@ const About = () => {
           ></iframe>
         </p>
       </div>
+      <ChatBot />
     </div>
   );
 };

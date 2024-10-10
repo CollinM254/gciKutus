@@ -71,7 +71,7 @@ function Navbar() {
           </div>
           <div>
             <Link to={"Sermons"} onClick={() => setIsOpen(false)}>
-              Portal
+              Members
             </Link>
           </div>
         </div>

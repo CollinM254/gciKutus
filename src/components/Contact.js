@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../Styles/Contact.css";
+import ChatBot from "./ChatBot";
 
 function Contact() {
   useEffect(() => {
@@ -58,6 +59,7 @@ function Contact() {
           Kutus, Kenya. It has a 5 star rating on Google Maps.
         </p>
       </div>
+      <ChatBot />
     </div>
   );
 }

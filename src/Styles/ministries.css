@@ -1,6 +1,7 @@
 .ministries-container {
     text-align: center;
     padding: 2rem;
+    /* background-color: white; */
 }
 
 .department-boxes, .committee-boxes, .family-boxes {
@@ -31,7 +32,7 @@ h2 {
 
 p {
     font-size: 1rem;
-    color: #666;
+    color: white;
 }
 
 /* Media query for small screens */

@@ -12,13 +12,13 @@ const ChatBot = () => {
   return (
     <div className="chatbot-container">
       <div className={`chatbot-popup ${isOpen ? 'open' : ''}`}>
-        <a href="https://wa.me/254741210060" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>
+        <a href="https://wa.me/254707869120" target="_blank" rel="noopener noreferrer" style={{color: "white"}}>
           <FaWhatsapp /> WhatsApp
         </a>
-        <a href="tel:+254741210060" style={{color: "white"}}>
+        <a href="tel:+254707869120" style={{color: "white"}}>
           <FaPhone /> Call
         </a>
-        <a href="mailto:cmwenda20@gmail.com" style={{color: "white"}}>
+        <a href="mailto: kutusgci@gmail.com" style={{color: "white"}}>
           <FaEnvelope style={{color: "white"}}/> Send Enquiry
         </a>
         <a href="https://calendly.com/cmwenda20" style={{color: "white"}}>

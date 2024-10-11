@@ -7,6 +7,7 @@ export default function RegisterPage() {
     ev.preventDefault();
     const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/register', {
       method: 'POST',
+      mode: 'no-cors',
       body: JSON.stringify({username,password}),
       headers: {'Content-Type':'application/json'},
     });

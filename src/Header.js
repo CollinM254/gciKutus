@@ -18,6 +18,7 @@ export default function Header() {
     fetch('https://gciback-c2003eb544a8.herokuapp.com/logout', {
       credentials: 'include',
       method: 'POST',
+      mode: 'no-cors',
     });
     setUserInfo(null);
   }

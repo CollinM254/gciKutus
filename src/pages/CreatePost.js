@@ -19,7 +19,7 @@ export default function CreatePost() {
     ev.preventDefault();
     const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/post', {
       method: 'POST',
-      mode: 'no-cors',
+      // mode: 'no-cors',
       body: data,
       credentials: 'include',
     });

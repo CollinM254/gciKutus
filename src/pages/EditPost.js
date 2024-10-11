@@ -33,7 +33,7 @@ export default function EditPost() {
     }
     const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/post', {
       method: 'PUT',
-      mode: 'no-cors',
+      // mode: 'no-cors',
       body: data,
       credentials: 'include',
     });

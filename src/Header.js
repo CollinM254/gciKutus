@@ -5,7 +5,7 @@ import {UserContext} from "./UserContext";
 export default function Header() {
   const {setUserInfo,userInfo} = useContext(UserContext);
   useEffect(() => {
-    fetch('https://gciback-c2003eb544a8.herokuapp.com/profile', {
+    fetch('https://g-back-master.vercel.app/profile', {
       credentials: 'include',
     }).then(response => {
       response.json().then(userInfo => {
@@ -15,7 +15,7 @@ export default function Header() {
   }, []);
 
   function logout() {
-    fetch('https://gciback-c2003eb544a8.herokuapp.com/logout', {
+    fetch('https://g-back-master.vercel.app/logout', {
       credentials: 'include',
       method: 'POST',
       // mode: 'no-cors',

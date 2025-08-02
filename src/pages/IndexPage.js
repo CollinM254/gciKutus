@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function IndexPage() {
   const [posts, setPosts] = useState([]);
   useEffect(() => {
-    fetch("https://gciback-c2003eb544a8.herokuapp.com/post").then((response) => {
+    fetch("https://g-back-master.vercel.app/post").then((response) => {
       response.json().then((posts) => {
         setPosts(posts);
       });

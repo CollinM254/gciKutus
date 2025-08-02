@@ -9,7 +9,7 @@ export default function LoginPage() {
   const {setUserInfo} = useContext(UserContext);
   async function login(ev) {
     ev.preventDefault();
-    const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/login', {
+    const response = await fetch('https://g-back-master.vercel.app/login', {
       method: 'POST',
       // mode: 'no-cors',
       body: JSON.stringify({username, password}),

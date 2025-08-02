@@ -5,7 +5,7 @@ export default function RegisterPage() {
   const [password, setPassword] = useState('');
   async function register(ev) {
     ev.preventDefault();
-    const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/register', {
+    const response = await fetch('https://g-back-master.vercel.app/register', {
       method: 'POST',
       // mode: 'no-cors',
       body: JSON.stringify({username,password}),

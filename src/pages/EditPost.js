@@ -11,7 +11,7 @@ export default function EditPost() {
   const [redirect,setRedirect] = useState(false);
 
   useEffect(() => {
-    fetch('https://gciback-c2003eb544a8.herokuapp.com/post/'+id)
+    fetch('https://g-back-master.vercel.app/post/'+id)
       .then(response => {
         response.json().then(postInfo => {
           setTitle(postInfo.title);
@@ -31,7 +31,7 @@ export default function EditPost() {
     if (files?.[0]) {
       data.set('file', files?.[0]);
     }
-    const response = await fetch('https://gciback-c2003eb544a8.herokuapp.com/post', {
+    const response = await fetch('https://g-back-master.vercel.app/post', {
       method: 'PUT',
       // mode: 'no-cors',
       body: data,
